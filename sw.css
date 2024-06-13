@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(images/clock.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 340px;
+    background-color: #000000;
+}
+
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.buttons button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startStopBtn {
+    background: #742a0e;
+    color: #fff;
+    font-weight: bold;
+}
+
+#resetBtn {
+    background: #8b0b02;
+    color: #fff;
+    font-weight: bold;
+}
+
+#lapBtn {
+    background: #41000e;
+    color: #fff;
+    font-weight: bold;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#laps div {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
